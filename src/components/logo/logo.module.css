@@ -1,0 +1,17 @@
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logoIcon {
+  margin-right: 9px;
+  width: 37px;
+  height: 54px;
+}
+
+.logoName {
+  color: var(--dark-green);
+  font-size: 2.375rem;
+  font-weight: 700;
+}
