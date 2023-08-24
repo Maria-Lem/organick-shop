@@ -1,7 +1,14 @@
 .cursiveParagraph {
   margin: 0;
-  color: var(--italic-green);
   font-family: Yellowtail;
   font-size: 36px;
   font-weight: 400;
+}
+
+.greenColorText {
+  color: var(--italic-green);
+}
+
+.whiteColorText {
+  color: #fff;
 }

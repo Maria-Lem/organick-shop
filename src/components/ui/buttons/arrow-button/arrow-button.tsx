@@ -16,8 +16,8 @@ export const ArrowButton: React.FC<IProps> = ({ text, btnColor, extraClass = '' 
 
   return (
     <button className={`${styles.button} ${className} ${extraClass}`}>
-      {text}
-      <img src={ArrowIcon} alt="arrow icon" />
+      <span className={styles.buttonName}>{text}</span>
+      <img src={ArrowIcon} alt="arrow icon" className={styles.arrowIcon}  />
     </button>
   );
 };

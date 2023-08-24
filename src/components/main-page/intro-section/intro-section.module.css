@@ -1,0 +1,42 @@
+.introSection {
+  padding: 154px 190px;
+  width: 100%;
+}
+
+.introContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.introItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 55px;
+  width: 683px;
+  height: 367px;
+  border-radius: 30px;
+}
+
+.introItemNatural {
+  margin-right: 36px;
+  background: url('../../../images/main-page/offers-1.jpg');
+}
+
+.introItemOffer {
+  background: url('../../../images/main-page/offers-2.jpg');
+}
+
+.cardTitle {
+  margin: 0;
+  width: 278px;
+  color: var(--dark-green);
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.cardTitleNatural {
+  color: #fff;
+}
