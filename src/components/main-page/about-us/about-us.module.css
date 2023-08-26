@@ -1,0 +1,18 @@
+.aboutUs {
+  padding: 156px 0 199px;
+  width: 100%;
+  background-color: var(--beige);
+}
+
+.aboutUsContent {
+  display: flex;
+}
+
+.aboutUsImage {
+  width: 911px;
+  height: 867px;
+}
+
+.title {
+  margin: 8px 0 14px;
+}

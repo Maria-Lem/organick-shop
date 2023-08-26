@@ -7,23 +7,14 @@
   font-weight: 700;
   border-radius: 16px;
   border: none;
+  transition: background-color .2s;
   cursor: pointer;
 }
-
-/* .buttonName {
-  margin-right: 10px;
-  transition: .5s;
-}
-
-.button:hover .buttonName {
-  margin-right: 20px;
-} */
 
 .arrowIcon {
   position: relative;
   left: 10px;
   transition: .2s;
-  /* margin-left: 10px; */
 }
 
 .button:hover .arrowIcon {
@@ -32,11 +23,22 @@
 
 .yellowBtn {
   background-color: var(--yellow);
-  transition: background-color .2s;
 }
 
 .yellowBtn:hover {
   padding: 26px 37px;
   background-color: #fff;
   border: 2px solid var(--yellow);
+}
+
+.greenBtn {
+  color: #fff;
+  background-color: var(--dark-green);
+}
+
+.greenBtn:hover {
+  padding: 26px 37px;
+  color: var(--dark-green);
+  background-color: #fff;
+  border: 2px solid var(--dark-green);
 }
